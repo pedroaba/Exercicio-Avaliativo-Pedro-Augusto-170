@@ -7,6 +7,7 @@ from core.passenger import Passenger
 from core.run import Run
 
 
+# MotoristaDAO
 class DriverModel:
     def __init__(self, collection: pymongo.collection.Collection):
         self._collection = collection
